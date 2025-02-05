@@ -44,12 +44,4 @@ public class Employer extends AbstractEntity {
     public void setJobs(List<Job> jobs) {
         this.jobs = jobs;
     }
-
-    @Override
-    public String toString() {
-        return "Employer{" +
-                "jobs=" + jobs +
-                ", location='" + location + '\'' +
-                '}';
-    }
 }
